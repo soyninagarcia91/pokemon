@@ -1,0 +1,36 @@
+.btnSearch{
+    font-family: 'Pokemon';
+    color: black;
+    background: rgb(121, 211, 203);
+    line-height: 40px;
+    padding: 0 10px 4px;
+    margin-top: -4%;
+    width: 5rem;
+    font-size: 10px;
+    box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+    border: 3px solid #004260;
+    border-radius: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.btnSearch:hover,.inputSearch:hover{
+    font-family: 'Pokemon';
+    background: #377b80;
+    color: white;
+    top: 10px;
+    box-shadow: none;
+}
+.inputSearch{
+    font-family: 'Pokemon';
+    color: black;
+    background: rgb(121, 211, 203);
+    width: 15rem;
+    padding: 10px 10px;
+    margin: 4px 4px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 18px;
+    box-sizing: border-box;
+    opacity:0.9;
+}

@@ -1,0 +1,57 @@
+body{
+    background-image: url('../../resources/images/fondo-rosado.jpg');
+    background-position: center;
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+  }
+  .divLanding{
+     
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5rem;
+      width: 50vw; 
+      height: 25vh; 
+      background-color: rgba(0, 0, 0, 0.541);
+      border: 3px solid #000;
+      border-radius: 8px;
+      overflow: auto;
+    }
+
+    @font-face {
+      font-family: 'Pokemon';
+      src: url(../../resources/fonts/Pokemon\ Classic.ttf);
+    }
+    .titleLading,.ParrafoLanding{
+      font-family: 'Pokemon';
+    } 
+
+    .button{
+      font-family: 'Pokemon';
+      color: black;
+      background: rgb(121, 211, 203);
+      line-height: 60px;
+      padding: 0 40px;
+      margin-top: 20px;
+      box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+      border: 3px solid #004260;
+      border-radius: 40px;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+    
+    .button:hover{
+      font-family: 'Pokemon';
+      background: #377b80;
+      color: white;
+     
+      top: 10px;
+      box-shadow: none;
+    }

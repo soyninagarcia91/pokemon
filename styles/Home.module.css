@@ -1,0 +1,76 @@
+.headerHome{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-around;
+  
+}
+
+.orderAndFilter{
+margin: 2%;
+}
+.btnHome{
+
+}
+.linkPokemon,.orderAndFilter,.btnHome{
+    font-family: 'Pokemon';
+    color: black;
+    background: rgb(121, 211, 203);
+    line-height: 40px;
+    padding: 0 10px 4px;
+    width: 15rem;
+    font-size: 10px;
+    box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+    border: 3px solid #004260;
+    border-radius: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.linkPokemon:hover,.orderAndFilter:hover,.btnHome:hover{
+    font-family: 'Pokemon';
+    background: #377b80;
+    color: white;
+    top: 10px;
+    box-shadow: none;
+}
+.divCard{
+    font-family: 'Pokemon';
+    justify-self: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.loadersito,.paginado{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+/* .orderAndFilter{
+    margin: 8px 5px;
+}
+.btnReload,.linkPokemon,.orderAndFilter{
+    padding: 12px 20px;
+    width: 30%;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 18px;
+    box-sizing: border-box;
+    opacity:0.8;
+}
+.btnReload,.linkPokemon{
+    display: flex;
+    justify-content:center;
+    margin: 8px 35%;
+}
+.btnReload:hover, .linkPokemon:hover, .orderAndFilter:hover{
+background-color: #808080;
+cursor: pointer;
+} */

@@ -1,0 +1,91 @@
+.containerCreate{
+    font-family: 'Pokemon';
+      margin: 5rem;
+      margin-left: 40rem;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(34, 34, 34, 0.541);
+      width: 30vw; 
+      height:60vh; 
+      border: 3px solid #000;
+      border-radius: 15px;
+  }
+  
+  label {
+      color: white;
+      text-shadow: 1px 1px 1px black;
+      padding: 4px 6px;
+      line-height: 190%;
+      outline-style: none;
+    }
+  
+    .btnSubmit,.btnBackDiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  .btnBack,.btnSub{
+    font-family: 'Pokemon';
+    font-size: large;
+    color: black;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 3px solid #3d5f6f;
+    cursor: pointer;
+    background: rgb(75, 135, 130);
+    border-radius: 50%;
+    border: none;
+    box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.8);
+    margin: 5px;
+    padding: 12px 20px;
+  
+  }
+  
+  .btnBack:hover,.btnSub:hover{
+    background: #275d61;
+    color: white;
+    top: 10px;
+    box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+  }
+  
+  .input{
+    font-family: 'Pokemon';
+    font-size: medium;
+    color: black;
+    box-sizing: border-box;
+    border: 3px solid #3d5f6f;
+    border-radius: 15px;
+    
+  }
+  
+    .tipos {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+    
+    .tipos label {
+      margin-top: 100px;
+    }
+    .hiddenCB div {
+      display: inline;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    
+    
+  .error{
+      color: white;
+      text-shadow: 1px 1px 1px black;
+  }
+  .danger{
+      justify-content: space-between;
+      justify-items:stretch;
+      padding: -20px;
+      margin-right: -150%;
+      margin-top: -80%;
+  }
